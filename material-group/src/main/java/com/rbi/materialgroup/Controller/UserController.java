@@ -17,8 +17,6 @@ public class UserController {
     public String save(){
         User user = new User();
         user.setUserName("111");
-        user.setPassword("111");
-        user.setGender("1");
         user.setDepartment("行政部");
         userService.save(user);
         return "保存成功";
