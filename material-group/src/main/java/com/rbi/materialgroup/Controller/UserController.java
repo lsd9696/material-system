@@ -15,10 +15,10 @@ public class UserController {
 
     @RequestMapping("/save")
     public String save(){
-        User user = new User();
-        user.setUserName("111");
-        user.setDepartment("行政部");
-        userService.save(user);
+//        User user = new User();
+//        user.setUserName("111");
+//        user.setDepartment("行政部");
+//        userService.save(user);
         return "保存成功";
     }
 }
